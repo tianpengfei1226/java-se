@@ -21,6 +21,17 @@ public class Wang implements CallBack {
 	 */
 	public void askQuestion(final String question) {
 		//这里用一个线程就是异步，
+//		ThreadPoolExecutor executor = new ThreadPoolExecutor(
+//				5
+//				, 10
+//				, 60
+//				, TimeUnit.SECONDS
+//				, new LinkedBlockingDeque<>(100));
+//
+//		executor.execute(() -> {
+//			// 小王调用小李中的方法，在这里注册回调接口, 这就相当于A类调用B的方法C
+//			li.executeMessage(Wang.this, question);
+//		});
 		new Thread(new Runnable() {
 			@Override
 			public void run() {
@@ -33,7 +44,7 @@ public class Wang implements CallBack {
 	}
 
 	public void play(){
-		System.out.println("我要逛街去了");
+		System.out.println("小王要逛街去了");
 	}
 
 	/**

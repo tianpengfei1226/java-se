@@ -3,8 +3,8 @@ package com.tpf.javase.map;
 /**
  * <p> </p>
  *
+ * @author : tianpengfei
  * @version :  MyMap.java,v 1.0, 2018/6/8-15:35 tianpengfei Exp $
- * @auther : tianpengfei
  */
 public interface MyMap<K, V> {
     public V put(K k, V v);

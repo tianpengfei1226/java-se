@@ -4,9 +4,9 @@ package com.tpf.designpattern.观察者模式.事件驱动.田鹏飞;
  * <p> </p>
  *
  * @author : tianpengfei
- * @version :  TestObersver.java,v 1.0, 2018/11/23-18:28 tianpengfei Exp $
+ * @version :  TestObserver.java,v 1.0, 2018/11/23-18:28 tianpengfei Exp $
  */
-public class TestObersver {
+public class TestObserver {
 	public static void main(String[] args) {
 		//声明被观察者
 		Person person = new Person();
