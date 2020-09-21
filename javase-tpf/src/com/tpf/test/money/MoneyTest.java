@@ -1,7 +1,7 @@
 package com.tpf.test.money;
 
 /**
- * <p> </p>
+ * <p> 金额测试类 </p>
  *
  * @author : tianpengfei
  * @version :  MoneyTest.java,v 1.0, 2018/11/19-13:50 tianpengfei Exp $
