@@ -1,5 +1,7 @@
 package com.tpf.juc.queue;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
@@ -18,6 +20,13 @@ public class LinkedBlockingQueueDemo {
         queue.offer("tpf3");
 
         queue.take();
+
+        List<String> list = new ArrayList<>();
+        list.add(null);
+
+        LinkedBlockingQueue queue1 = new LinkedBlockingQueue(list);
+
+
 
 
     }
