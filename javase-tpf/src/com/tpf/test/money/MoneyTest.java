@@ -23,5 +23,7 @@ public class MoneyTest {
 
 		System.out.println("版本一");
 
+		System.out.println("版本二");
+
 	}
 }
