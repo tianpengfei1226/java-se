@@ -20,5 +20,8 @@ public class MoneyTest {
 
 		String account= "0123456789";
 		System.out.println(account.substring(account.length() - 5));
+
+		System.out.println("版本一");
+
 	}
 }
